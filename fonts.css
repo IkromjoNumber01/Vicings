@@ -1,0 +1,14 @@
+@font-face{
+    font-family: 'RobotoCondensed-Light';
+    src: url(Fonts/RobotoCondensed-Light.ttf);
+}
+
+@font-face{
+    font-family: 'RobotoCondensed-Regular';
+    src: url(Fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'RobotoCondensed-Bold';
+    src: url(Fonts/RobotoCondensed-Bold.ttf);
+}

@@ -1,0 +1,990 @@
+@import url(fonts.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'RobotoCondensed-Regular';
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* nav start */
+
+.nav{
+    background: url(Photos/top-header.jpg) no-repeat center top/cover;
+    height: 100vh;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.img{
+    position: absolute;
+    content: '';
+    top: 220px;
+    left: 430px;
+}
+
+.top-logo{
+    width: 680px;
+}
+
+.nav__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.nav::before{
+    position: absolute;
+    content: '';
+    background: linear-gradient(180deg, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%);
+    top: 0;
+    height: 90px;
+    width: 100%;
+}
+
+.nav::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(180deg, #0E0E0E 0%, rgba(17, 17, 17, 0.850295) 16.53%, rgba(32, 31, 33, 0) 100%);
+    transform: rotate(180deg);
+}
+
+.nav__ul{
+    display: flex;
+    gap: 25px;
+    position: absolute;
+    content: '';
+    padding-top: 25px;
+}
+
+.nav__li{
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+
+.nav__li::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    background: #85CCDC;
+    transition: 0.5s;
+}
+
+.nav__li:hover::before{
+    width: 100%;
+}
+
+.nav__li:hover{
+    color: #85CCDC;
+    
+}
+
+/* nav end */
+
+
+/* header start */
+
+
+header{
+    background: #0E0E0E;
+    height: 570px;
+    color: white;
+}
+
+h3{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left{
+    padding-top: 120px;
+    color: #E5E5E5;
+}
+.p{
+    padding-bottom: 15px;
+}
+
+.pp{
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+.ppp{
+    width: 200px;
+}
+
+.header__right{
+    padding-top: 120px;
+    width: 770px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+/* header end */
+
+
+/* main start */
+
+
+.main-img{
+    background: url(Photos/main\ photo.jpg) no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+}
+
+.main-p{
+    position: absolute;
+    content: '';
+    right: 30%;
+    top: 38%;
+    font-family: 'RobotoCondensed-Light';
+    color:#85CCDC;
+    font-size: 72px;
+    font-style: italic;
+}
+
+.main-p2{
+    position: absolute;
+    content: '';
+    top: 47%;
+    right: 10%;
+    font-family: 'RobotoCondensed-Light';
+    color:#85CCDC;
+    font-size: 72px;
+    font-style: italic;
+}
+
+.you-tube{
+    position: absolute;
+    content: '';
+    top: 58%;
+    right: 42%;
+}
+
+.you-tube-p{
+    position: absolute;
+    content: '';
+    top: 63%;
+    right: 28%;
+    color: white;
+}
+
+.you-tube-p:hover{
+    color: red;
+}
+
+
+/* main end */
+
+
+
+/* section start */
+
+
+section{
+    background:#0E0E0E;
+    height: 950px;
+    position: relative;
+}
+
+.sec-p{
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    padding-top: 80px;
+}
+
+.sec__cards{
+    padding-top: 150px;
+    display: flex;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+
+.sec-img1{
+    background: url(Photos/card1.png) no-repeat center center/cover;
+    width: 350px;
+    height: 250px;
+    position: relative;
+}
+
+.sec-img1::after{
+    position: absolute;
+    content: '01';
+    color: #600E09;
+    top: -60px;
+    font-size: 96px;
+}
+.sec-img2::after{
+    position: absolute;
+    content: '02';
+    color: #600E09;
+    top: -60px;
+    font-size: 96px;
+}
+.sec-img3::after{
+    position: absolute;
+    content: '03';
+    color: #600E09;
+    top: -60px;
+    font-size: 96px;
+}
+.sec-img4::after{
+    position: absolute;
+    content: '04';
+    color: #600E09;
+    top: -60px;
+    font-size: 96px;
+}
+.sec-img5::after{
+    position: absolute;
+    content: '05';
+    color: #600E09;
+    top: -60px;
+    font-size: 96px;
+}
+.sec-img6::after{
+    position: absolute;
+    content: '06';
+    color: #600E09;
+    top: -60px;
+    font-size: 96px;
+}
+
+
+.sec-img1::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    top: 40%;
+    text-align: center;
+    left: 10%;
+    height: 65px;
+    background: black;
+}
+
+.sec-img1:hover::before{
+    width: 300px;
+    content: 'Cмотреть';
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-img2{
+    background: url(Photos/card\ 2.png);
+    width: 350px;
+    height: 250px;
+    position: relative;
+}
+
+.sec-img2::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    top: 40%;
+    text-align: center;
+    left: 10%;
+    height: 65px;
+    background: black;
+}
+
+.sec-img2:hover::before{
+    width: 300px;
+    content: 'Cмотреть';
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec-img3{
+    background: url(Photos/card\ 3.png);
+    width: 350px;
+    height: 250px;
+    position: relative;
+}
+
+.sec-img3::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    top: 40%;
+    text-align: center;
+    left: 10%;
+    height: 65px;
+    background: black;
+}
+
+.sec-img3:hover::before{
+    width: 300px;
+    content: 'Cмотреть';
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-img4{
+    background: url(Photos/card\ 4.png);
+    width: 350px;
+    height: 250px;
+    position: relative;
+}
+
+.sec-img4::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    top: 40%;
+    text-align: center;
+    left: 10%;
+    height: 65px;
+    background: black;
+}
+
+.sec-img4:hover::before{
+    width: 300px;
+    content: 'Cмотреть';
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-img5{
+    background: url(Photos/card\ 5.png);
+    width: 350px;
+    height: 250px;
+    position: relative;
+}
+
+.sec-img5::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    top: 40%;
+    text-align: center;
+    left: 10%;
+    height: 65px;
+    background: black;
+}
+
+.sec-img5:hover::before{
+    width: 300px;
+    content: 'Cмотреть';
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-img6{
+    background: url(Photos/card\ 6.png);
+    width: 350px;
+    height: 250px;
+    position: relative;
+}
+
+.sec-img6::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    top: 40%;
+    text-align: center;
+    left: 10%;
+    height: 65px;
+    background: black;
+}
+
+.sec-img6:hover::before{
+    width: 300px;
+    content: 'Cмотреть';
+    color: white;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* section end */
+
+
+/* section2 start */
+
+.section2{
+    height: 660px;
+    background: #0E0E0E;
+}
+
+
+.sec2-p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 80px;
+}
+
+
+.sec2-p2{
+    font-size: 60px;
+    color: #85CCDC;
+    font-family: 'RobotoCondensed-Light';
+    font-style: italic;
+    padding-bottom: 45px;
+}
+
+.sec2-p3{
+    width: 349px;
+    font-size: 18px;
+    color: white;
+}
+
+.sec2__content{
+    display: flex;
+    column-gap: 60px;
+}
+
+
+/* section2 end */
+
+/* section3 start */
+
+.section3{
+    background: #0E0E0E; 
+    height: 100px;
+}
+
+.footer-p{
+    color: white;
+    font-size: 16px;
+    padding: 14px 0;
+    text-align: center;
+}
+
+
+/* section3 end */
+
+
+
+
+/* nav2 start */
+
+
+.nav2{
+    background: url(Photos/page\ top\ background.png) no-repeat center center/cover;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.nav2::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    background: linear-gradient(180deg, #111213 0%, #111213 43.62%, rgba(32, 31, 33, 0) 86.33%);
+    z-index: 2;
+    width: 100%;
+    height: 130px;
+}
+
+.nav2::after{
+    position: absolute;
+    content: '';
+    width: 1000px;
+    height: 260px;
+    background: #0E0E0E;
+    padding: 15px;
+    bottom: 0;
+    left: 14%;
+    color: white;
+}
+
+.container2{
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav2__content{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 300px;
+}
+
+.nav2-img{
+    z-index: 4;
+}
+
+.nav2__ul{
+    display: flex;
+    column-gap: 35px;
+    padding-left: 120px;
+    z-index: 3;
+}
+
+
+.p__left{
+    position: absolute;
+    content: '';
+    top: 63%;
+    font-family: 'RobotoCondensed-Bold';
+    left: 15.4%;
+    color: white;
+    z-index: 5;
+    font-size: 95px;
+}
+
+.p__left2{
+    font-size: 36px;
+    color: white;
+    position: absolute;
+    content: '';
+    top: 73.5%;
+    left: 15.7%;
+    z-index: 6;
+    font-family: 'RobotoCondensed-Bold';
+}
+
+.p__right{
+    color: white;
+    position: absolute;
+    content: '';
+    bottom: 6.6%;
+    left: 25%;
+    z-index: 3;
+    font-size: 16px;
+    width: 810px;
+}
+
+
+/* nav2 end */
+
+
+
+/* main start */
+
+
+.header2{
+    height: 1300px;
+    background: #0E0E0E;
+}
+
+.sec4-p{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 150px;
+}
+
+.card1{
+    position: relative;
+    z-index: 1;
+}
+
+
+.card1::before{
+    position: absolute;
+    content: '01';
+    font-family: 'RobotoCondensed-Bold';
+    color: #600E09;
+    font-size: 70px;
+    top: -22.2%;
+    left: 0;
+    z-index: -1;
+}
+
+.card1::after{
+    position: absolute;
+    content: 'Cмотреть';
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 280px;
+    height: 64px;
+    background: black;
+    top: 40%;
+    font-size: 28px;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+
+.card1:hover::after{
+    transform: scale(1.0);
+}
+
+.card2{
+    position: relative;
+    z-index: 1;
+}
+
+.card2::before{
+    position: absolute;
+    content: '02';
+    font-family: 'RobotoCondensed-Bold';
+    color: #600E09;
+    font-size: 70px;
+    top: -22.2%;
+    left: 0;
+    z-index: -1;
+}
+
+.card2::after{
+    position: absolute;
+    content: 'Cмотреть';
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 280px;
+    height: 64px;
+    background: black;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    justify-content: center;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+
+.card2:hover::after{
+    transform: scale(1.0);
+}
+
+
+.card3{
+    position: relative;
+    z-index: 1;
+}
+
+.card3::before{
+    position: absolute;
+    content: '03';
+    font-family: 'RobotoCondensed-Bold';
+    color: #600E09;
+    font-size: 70px;
+    top: -21%;
+    left: 0;
+    z-index: -1;
+}
+
+.card3::after{
+    position: absolute;
+    content: 'Cмотреть';
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 280px;
+    height: 64px;
+    background: black;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    justify-content: center;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+
+.card3:hover::after{
+    transform: scale(1.0);
+}
+
+.card4{
+    position: relative;
+    z-index: 1;
+}
+
+.card4::before{
+    position: absolute;
+    content: '04';
+    font-family: 'RobotoCondensed-Bold';
+    color: #600E09;
+    font-size: 70px;
+    top: -23%;
+    left: 0;
+    z-index: -1;
+}
+
+.card4::after{
+    position: absolute;
+    content: 'Cмотреть';
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 280px;
+    height: 64px;
+    background: black;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    justify-content: center;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+
+.card4:hover::after{
+    transform: scale(1.0);
+}
+
+.card5{
+    position: relative;
+    z-index: 1;
+}
+
+.card5::before{
+    position: absolute;
+    content: '05';
+    font-family: 'RobotoCondensed-Bold';
+    color: #600E09;
+    font-size: 70px;
+    top: -22.2%;
+    left: 0;
+    z-index: -1;
+}
+
+.card5::after{
+    position: absolute;
+    content: 'Cмотреть';
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 280px;
+    height: 64px;
+    background: black;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    justify-content: center;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+
+.card5:hover::after{
+    transform: scale(1.0);
+}
+
+.card6{
+    position: relative;
+    z-index: 1;
+}
+
+.card6::before{
+    position: absolute;
+    content: '06';
+    font-family: 'RobotoCondensed-Bold';
+    color: #600E09;
+    font-size: 70px;
+    top: -22.2%;
+    left: 0;
+    z-index: -1;
+}
+
+.card6::after{
+    position: absolute;
+    content: 'Cмотреть';
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 280px;
+    height: 64px;
+    background: black;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    justify-content: center;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+
+.card6:hover::after{
+    transform: scale(1.0);
+}
+
+.card7{
+    position: relative;
+    z-index: 1;
+}
+
+.card7::before{
+    position: absolute;
+    content: '07';
+    font-family: 'RobotoCondensed-Bold';
+    color: #600E09;
+    font-size: 70px;
+    top: -22.2%;
+    left: 0;
+    z-index: -1;
+}
+
+.card7::after{
+    position: absolute;
+    content: 'Cмотреть';
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 280px;
+    height: 64px;
+    background: black;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    justify-content: center;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+
+.card7:hover::after{
+    transform: scale(1.0);
+}
+
+.card8{
+    position: relative;
+    z-index: 1;
+}
+
+.card8::before{
+    position: absolute;
+    content: '08';
+    font-family: 'RobotoCondensed-Bold';
+    color: #600E09;
+    font-size: 70px;
+    top: -22.2%;
+    left: 0;
+    z-index: -1;
+}
+
+.card8::after{
+    position: absolute;
+    content: 'Cмотреть';
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 280px;
+    height: 64px;
+    background: black;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    justify-content: center;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+
+.card8:hover::after{
+    transform: scale(1.0);
+}
+
+.card9{
+    position: relative;
+    z-index: 1;
+}
+
+.card9::before{
+    position: absolute;
+    content: '09';
+    font-family: 'RobotoCondensed-Bold';
+    color: #600E09;
+    font-size: 70px;
+    top: -22.2%;
+    left: 0;
+    z-index: -1;
+}
+
+.card9::after{
+    position: absolute;
+    content: 'Cмотреть';
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 280px;
+    height: 64px;
+    background: black;
+    top: 40%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    justify-content: center;
+    transform: scale(0);
+    transition: 0.5s;
+}
+
+
+.card9:hover::after{
+    transform: scale(1.0);
+}
+
+.card-first{
+    display: flex;
+    column-gap: 40px;
+    padding-bottom: 60px;
+}
+
+.card-second{
+    display: flex;
+    padding-bottom: 60px;
+    column-gap: 40px;
+}
+
+.card-third{
+    display: flex;
+    column-gap: 40px;
+    
+}
+
+
+/* main end */
